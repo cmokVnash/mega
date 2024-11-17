@@ -1,0 +1,51 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# Django specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Secrets
+.env
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Django migrations
+*.pyc
+migrations/ 
+
+# MyPy cache
+.mypy_cache/
+
+# MacOS specific files
+.DS_Store
+
+# Others
+*.egg-info/
+*.egg
+*.orig
+*.bak
+*.tmp
